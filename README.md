@@ -24,3 +24,14 @@ Foram desenvolvidos algoritmos em Python que resolvem os problemas de lógica de
 9. Desconto em produto, considerando valor e cliente VIP.
 
 10. Validação de senha com regras de segurança.
+
+
+
+🚀 Como executar
+
+Instale o Python 3.x no seu computador.
+
+Clone este repositório:
+
+git clone https://github.com/SEU-USUARIO/trabalho-python-m1.git
+cd trabalho-python-m1
