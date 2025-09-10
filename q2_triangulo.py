@@ -1,16 +1,14 @@
-# Questão 2 - Classificação de triângulo
-a = float(input("Lado A: ").replace(",", "."))
-b = float(input("Lado B: ").replace(",", "."))
-c = float(input("Lado C: ").replace(",", "."))
+# Questão 2 - Verificar triângulo e classificar
+a = float(input("Digite o valor do lado A: "))
+b = float(input("Digite o valor do lado B: "))
+c = float(input("Digite o valor do lado C: "))
 
-if a <= 0 or b <= 0 or c <= 0:
-    print("Não forma triângulo (lado inválido).")
-elif a + b <= c or a + c <= b or b + c <= a:
-    print("Não forma triângulo.")
-else:
+if a + b > c and a + c > b and b + c > a:
     if a == b == c:
-        print("Triângulo equilátero.")
+        print("É um triângulo equilátero.")
     elif a == b or a == c or b == c:
-        print("Triângulo isósceles.")
+        print("É um triângulo isósceles.")
     else:
-        print("Triângulo escaleno.")
+        print("É um triângulo escaleno.")
+else:
+    print("Os valores informados NÃO formam um triângulo.")
